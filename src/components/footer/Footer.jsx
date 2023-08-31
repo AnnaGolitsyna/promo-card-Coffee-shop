@@ -34,14 +34,7 @@ const Footer = () => {
         </a>
       </div>
       {showMap && <MapContainer close={handleLocationClick} />}
-      {/* <a
-        className="link__buying"
-        href="https://www.deathwishcoffee.com/products/death-wish-coffee"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        BUY NOW
-      </a> */}
+
       <a
       className='link__wrapper'
         href="https://www.deathwishcoffee.com/products/death-wish-coffee"
