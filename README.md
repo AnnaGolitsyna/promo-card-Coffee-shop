@@ -1,7 +1,7 @@
 # 'Death wish coffee' project
 Promo card for company 'Death wish coffee'
 
-### [!!! NEW Site link](https://stupendous-manatee-5ecf14.netlify.app/)
+### [!!! NEW Site link](https://64f0730c3a2bd27d2d5f52fe--promo-card-for-coffee-shop.netlify.app/)
 
 Basic functionality:
 Layout - supports tablet (from 500px) and desktop versions.
