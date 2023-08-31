@@ -1,0 +1,45 @@
+.dilogForm {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.dilogForm__input {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 0;
+  border: 0.02rem solid #5db8e2;
+}
+
+.dilogForm__input:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0.4rem 1rem;
+}
+
+.dilogForm__input:focus {
+  border: 1px solid transparent;
+  outline: none;
+  border: 0.1rem solid #229ed9;
+}
+
+.error-message {
+  margin: 0 0 1rem 1rem;
+  color: rgb(206, 29, 29);
+}
+
+.btn__modal {
+  margin: 0.5rem 2rem;
+  width: 5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+}
+
+.btn_canceled {
+  background-color: rgb(206, 29, 29);
+}
+
+.btn_save {
+  background-color: #229ed9;
+}

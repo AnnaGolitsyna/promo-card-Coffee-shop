@@ -1,0 +1,15 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./styles/background/see.jpg);
+  background-size: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  background-color: rgb(242, 232, 216);
+  box-shadow: rgb(183, 171, 171) 0 0.4rem 1rem;
+}

@@ -1,0 +1,46 @@
+.iconsGroup {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  margin: 1rem;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  border-radius: 0.5rem;
+}
+
+.icon:hover {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0.4rem 1rem;
+  transform: translateY(-0.05rem);
+}
+
+.icon_instagram {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.icon_youTube {
+  color: #c4302b;
+}
+
+.icon_facebook {
+  color: #3b5998;
+}
+
+.icon_twitter {
+  color: #1da1f2;
+}

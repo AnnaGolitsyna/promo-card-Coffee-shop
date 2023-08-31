@@ -1,0 +1,96 @@
+.content {
+  position: relative;
+  flex: 1;
+  margin: 0 1rem;
+  padding: 1rem;
+  border: 0.05rem solid rgb(171, 169, 169, 0.5);
+  border-radius: 0.2rem;
+}
+
+.logo__wrapper {
+  position: absolute;
+  top: -3rem;
+  left: 51%;
+  transform: translateX(-49%);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: rgb(242, 232, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+  background-image: url(../../styles/background/logoOrg.png);
+  background-size: cover;
+}
+
+.slide-in-bck-center {
+  animation: slide-in-bck-center 2s both;
+}
+
+@keyframes slide-in-bck-center {
+  0% {
+    opacity: 0;
+    transform: translateY(-2rem) scale(0.8);
+    filter: blur(8px);
+  }
+  30% {
+    opacity: 0.7;
+    transform: translateY(-0.5rem) scale(1);
+    filter: blur(4px);
+  }
+  70% {
+    opacity: 1;
+    background-color: gray;
+    background-blend-mode: soft-light;
+    transform: translateY(0) scale(1.02);
+    filter: blur(2px);
+  }
+  90% {
+    opacity: 1;
+    background-color: rgb(206, 29, 29);
+    background-blend-mode: soft-light;
+    transform: translateY(0) scale(1.05);
+    filter: none;
+  }
+  100% {
+    opacity: 1;
+    background-color: gray;
+    background-blend-mode: soft-light;
+  }
+}
+
+.btn__content {
+  background-color: transparent;
+  color: rgb(206, 29, 29);
+}
+
+.btn__text {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.infoGroup {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.categoryInfo {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoryInfo__quantity {
+  font-weight: 700;
+  font-size: large;
+}
+.categoryInfo__label {
+  font-weight: 500;
+  font-size: small;
+}

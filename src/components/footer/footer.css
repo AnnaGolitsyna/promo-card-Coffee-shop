@@ -1,0 +1,50 @@
+.footer {
+  flex: 1;
+}
+.location {
+  margin: 1rem;
+  display: flex;
+}
+.location__adress {
+  margin: 1rem;
+}
+.location__icon {
+  opacity: 0.5;
+}
+.location__label {
+  margin-left: 0.5rem;
+}
+.location_hover {
+  text-decoration: none;
+  color: #000;
+}
+.location_hover:hover {
+  text-decoration: underline;
+  color: #3b5998;
+  transform: translateY(-0.05rem);
+}
+.link__wrapper {
+  text-decoration: none;
+  text-align: center;
+}
+.link__buying {
+  padding: 2rem;
+  font-size: large;
+  font-weight: 700;
+  background-color: rgb(234, 30, 30);
+  color: white;
+  cursor: pointer;
+}
+
+.link__buying:hover {
+  animation: color-change-2x 1.2s linear infinite alternate both;
+}
+
+@keyframes color-change-2x {
+  0% {
+    background: rgb(234, 30, 30);
+  }
+  100% {
+    background: rgb(43, 1, 1);
+  }
+}

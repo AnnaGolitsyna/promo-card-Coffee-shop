@@ -1,0 +1,23 @@
+.mapWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map__container {
+  position: relative;
+}
+.map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn__close_map {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  color: rgb(206, 29, 29);
+}
