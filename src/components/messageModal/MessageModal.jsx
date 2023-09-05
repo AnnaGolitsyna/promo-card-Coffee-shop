@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { createPortal } from 'react-dom';
 import { useForm } from 'react-hook-form';
 import SocialMediaBar from '../socialMediaBar/SocialMediaBar';
@@ -15,11 +15,6 @@ const MessageModal = ({ closeModal }) => {
     formState: { errors },
   } = useForm();
 
-  const [imgLoaded, setImgLoaded] = useState(false);
-
-  const handleImgLoad = () => {
-    setImgLoaded(true);
-  };
 
   return createPortal(
     <div className="modal__container">
@@ -37,18 +32,12 @@ const MessageModal = ({ closeModal }) => {
 
           <SocialMediaBar />
         </div>
-        
-          <img
-            className="modal__img"
-            src={pirateImage}
-            onLoad={handleImgLoad}
-            alt="pirate"
-          />
-          <button className="btn__close-message" onClick={closeModal}>
-            {' '}
-            X{' '}
-          </button>
 
+        <img className="modal__img" src={pirateImage} alt="pirate" />
+        <button className="btn__close-message" onClick={closeModal}>
+          {' '}
+          X{' '}
+        </button>
       </div>
     </div>,
     modalEl
