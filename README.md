@@ -16,9 +16,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [React Hook Form](https://www.react-hook-form.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Leonardo AI](https://leonardo.ai/)
 - [Font Awesome](https://fontawesome.com/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 
 ### Author
 
