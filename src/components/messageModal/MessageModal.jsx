@@ -18,7 +18,7 @@ const MessageModal = ({ closeModal }) => {
 
   return createPortal(
     <div className="modal__container">
-      <div className="modal__content">
+      <div className="modal__content" >
         <div className="modal__communication">
           <p className="modal__title">
             Our manager will be happy to read your message
